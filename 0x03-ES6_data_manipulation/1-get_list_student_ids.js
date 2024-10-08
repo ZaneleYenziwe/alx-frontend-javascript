@@ -5,7 +5,7 @@
  *   firstName: String,
  *   location: String
  * }[]} students - The list of students.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * @author ZaneleYenziwe <https://github.com/ZaneleYenziwe/alx-frontend-javascript.git>
  * @returns
  */
 export default function getListStudentIds(students) {
