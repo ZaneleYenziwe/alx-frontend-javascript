@@ -6,6 +6,7 @@
  *   location: String
  * }[]} students - The list of students.
  * @param {String} city - The location.
+ *@author ZaneleYenziwe <https://github.com/ZaneleYenziwe/alx-frontend-javascript.git>
  * @returns
  */
 export default function getStudentsByLocation(students, city) {
