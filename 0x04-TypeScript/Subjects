@@ -1,0 +1,14 @@
+// Define the Subjects string literal type
+type Subjects = 'Math' | 'History';
+
+// teachClass function
+function teachClass(todayClass: Subjects): string {
+  return `Teaching ${todayClass}`;
+}
+
+// Test teachClass function
+console.log(teachClass('Math')); // Teaching Math
+console.log(teachClass('History')); // Teaching History
+
+// Error: Argument of type '"Science"' is not assignable to parameter of type 'Subjects'.
+// console.log(teachClass('Science'));
